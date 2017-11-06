@@ -4,8 +4,9 @@ The free.dm Router daemon.
 '''
 
 # free.dm Imports
-from freedm.daemons.node import NodeDaemon
-from freedm.data.objects import DatabaseStore
+from freedm.daemons import NodeDaemon
+from freedm.data import SQLStore
+
 
 class RouterDaemon(NodeDaemon):
     '''
